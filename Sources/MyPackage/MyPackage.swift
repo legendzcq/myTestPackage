@@ -1,7 +1,7 @@
 public struct MyPackage {
-    var text = "Hello, World!"
-    var name = "kkk"
-    init(name:String) {
+  public  var text = "Hello, World!"
+   public var name = "kkk"
+   public init(name:String) {
         self.name = name
     }
     
