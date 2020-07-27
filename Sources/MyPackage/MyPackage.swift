@@ -1,4 +1,4 @@
-struct MyPackage {
+public struct MyPackage {
     var text = "Hello, World!"
     var name = "kkk"
     init(name:String) {
