@@ -5,7 +5,8 @@ public struct MyPackage {
         self.name = name
     }
     
-    func addtest(_ a:Int, _ b:Int) -> Int {
+  public  func addtest(_ a:Int, _ b:Int) -> Int {
+        print("22222")
         return a + b
     }
 }
